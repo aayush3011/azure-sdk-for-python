@@ -1,6 +1,7 @@
 -e ../../../eng/tools/azure-sdk-tools
 ../../core/azure-core
 ../../identity/azure-identity
+azure-storage-file-datalake>=12.20.0
 aiohttp
 pytest
 pytest-asyncio

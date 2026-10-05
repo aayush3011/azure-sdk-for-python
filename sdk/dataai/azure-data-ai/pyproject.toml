@@ -40,6 +40,9 @@ dynamic = [
 "version", "readme"
 ]
 
+[project.optional-dependencies]
+onelake = ["azure-storage-file-datalake>=12.20.0"]
+
 [project.urls]
 repository = "https://github.com/Azure/azure-sdk-for-python"
 

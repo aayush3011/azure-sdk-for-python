@@ -6,6 +6,10 @@ query, optionally returning the documents and sentence-level scores.
 
 The package uses the `2026-09-01-preview` service API.
 
+This branch also includes a local, synchronous [Qwen3 summarization POC](samples/README.md#summarization-poc).
+It calls a deployment-specific `/summarize` API directly, not the Azure Data AI inference
+service. The generated reranking APIs and client constructor remain unchanged.
+
 ## Getting started
 
 ### Install the package
